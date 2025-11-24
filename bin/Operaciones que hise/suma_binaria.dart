@@ -37,7 +37,7 @@ void sumabin () {
   }
   int suma = dec1 + dec2;
 
-  print ('La suma de los dos números binarios en decimal es: $suma, $dec1 + $dec2');
+  print ('La suma de los dos números binarios en decimal es: $suma');
 
 //Convertir el número decimal a binario
   String bin = '';
@@ -54,5 +54,5 @@ void sumabin () {
   while (bin.length % 4 != 0) {
     bin = '0' + bin;
   }
-   print ('La usma de los dos números binario es: $bin'); 
+   print ('La suma de los dos números binario es: $bin'); 
 }
